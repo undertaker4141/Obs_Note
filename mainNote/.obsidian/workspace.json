@@ -1,0 +1,284 @@
+{
+  "main": {
+    "id": "5391111ce72ef8e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "926851c3bbb20e94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "975d43f6e8e88ebd",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "My code file.cpp"
+              },
+              "icon": "lucide-file",
+              "title": "My code file"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e4f1020c61d9367d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7621600ea2d22bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2db8f61ee86329d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "1b9bc19af6cd6315",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "3851ce67e2dc10fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          },
+          {
+            "id": "ba4395b75671e558",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.51625061035156
+  },
+  "right": {
+    "id": "9faf2416e2c6517e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1fc07d4517801fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e6f2e3ad68b226f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "日記/2024-11-10.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2024-11-10 的反向連結"
+            }
+          },
+          {
+            "id": "c9698e1b97063c6a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的對外連結"
+            }
+          },
+          {
+            "id": "4f3dbf0e3a308b18",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "e25fdfe018c975eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "My code file.cpp",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "My code file 的大綱"
+            }
+          },
+          {
+            "id": "1bd00b3b415ff145",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
+            }
+          },
+          {
+            "id": "a8c1871124e4e79e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "baa44dea0c84c8f8",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "19116af9bae892e7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 349.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:開啟 Markdown 格式轉換器": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "templater-obsidian:Templater": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "media-extended:Open media": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-importer:Open Importer": false,
+      "vscode-editor:新建程式碼檔案": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "2db8f61ee86329d3",
+  "lastOpenFiles": [
+    "My code file.cpp",
+    "part_1_250523_012410.pdf",
+    "日記/日記.md",
+    "模板/日記模板.md",
+    "模板/未命名.md",
+    "日記/2025-05-10.md",
+    "模板/模板 by Borber.md",
+    "模板/模板 by 一蓑烟雨.md",
+    "英文作業Abstract writing_Conclusion.md",
+    "未命名.md",
+    "微處理機/第二章/CPSR與條件旗標.md",
+    "微處理機/微處理機概述.md",
+    "微處理機/第一章/課程資訊.md",
+    "微處理機/第一章/課程介紹與基礎.md",
+    "微處理機/第一章/硬體介紹.md",
+    "微處理機/第二章/CPU暫存器.md",
+    "Pasted image 20250523005611.png",
+    "人工智慧概論/HW2 Diabetes Classification Using ANN.md",
+    "未命名 3.md",
+    "微處理機/第二章/記憶體映射.md",
+    "微處理機/第二章/基本指令集.md",
+    "微處理機/第一章/開發工具與環境.md",
+    "微處理機/第六章/位元可定址記憶體.md",
+    "微處理機/第二章/ARM架構與組合語言程式設計.md",
+    "test.cpp.md",
+    "My code file.cpp.ts",
+    "未命名 1.md",
+    "111學年度電資學院學士班畢業條件明細表_1_240924_224449.pdf",
+    "Vault.md",
+    "Templater/Templater.md",
+    "My code file.py",
+    "My code file.ts",
+    "4112064205.pdf",
+    "image 123.png",
+    "image 122.png",
+    "image 121.png",
+    "image 120.png",
+    "image 119.png",
+    "image 118.png",
+    "image 117.png",
+    "image 116.png",
+    "image 115.png",
+    "Notion",
+    "Tags",
+    "人工智慧概論",
+    "專題簡歷.pdf",
+    "未命名.canvas",
+    "ue5_GSproject/未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

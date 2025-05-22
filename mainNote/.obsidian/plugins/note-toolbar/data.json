@@ -1,0 +1,42 @@
+{
+  "debugEnabled": false,
+  "emptyViewToolbar": null,
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [],
+  "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "onboarding": {},
+  "recentFiles": [
+    "part_1_250523_012410.pdf",
+    "My code file.cpp",
+    "日記/日記.md",
+    "模板/日記模板.md",
+    "模板/未命名.md",
+    "日記/2025-05-10.md",
+    "模板/模板 by Borber.md",
+    "模板/模板 by 一蓑烟雨.md",
+    "英文作業Abstract writing_Conclusion.md",
+    "未命名.md"
+  ],
+  "ribbonAction": "toolbar",
+  "scriptingEnabled": false,
+  "showEditInFabMenu": false,
+  "showToolbarIn": {
+    "audio": false,
+    "canvas": false,
+    "image": false,
+    "kanban": false,
+    "pdf": false,
+    "video": false
+  },
+  "showToolbarInFileMenu": false,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [],
+  "version": 20250313.1,
+  "whatsnew_version": "1.22"
+}

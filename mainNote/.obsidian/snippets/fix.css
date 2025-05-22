@@ -1,0 +1,15 @@
+/* --- 修正列表項目中文注音輸入問題 --- */
+
+/* 針對 Live Preview 和 Source Mode 的列表文字內容 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-list-line span[class*="cm-list"] {
+    font-family: var(--font-text-override, "PingFang SC", "Microsoft YaHei UI", "Noto Sans CJK SC", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol") !important;
+    /* 嘗試禁用可能影響IME的特性 */
+    text-rendering: auto !important;
+    font-variant-ligatures: none !important;
+}
+
+/* 針對 Reading View 的列表文字內容 (通常較少出問題，但以防萬一) */
+.markdown-preview-view ul > li,
+.markdown-preview-view ol > li {
+    font-family: var(--font-text-override, "PingFang SC", "Microsoft YaHei UI", "Noto Sans CJK SC", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol") !important;
+}

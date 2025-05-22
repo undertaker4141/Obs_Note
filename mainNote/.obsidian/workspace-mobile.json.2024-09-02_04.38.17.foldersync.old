@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "6ba0b7d8f1645307",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fcd59fe6b22c014",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7127f8f924a65b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "測試2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f139f093de00008f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fc6f496da615fe8c",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "b81fc19fd70136c7",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "09870e7ccc99f71f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "82fc0c7a001bb373",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "ffb1330cc84f10ad",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9dadc282f1516d46",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "測試2.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d7e9a791bfee7fd7",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "測試2.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "15c67d0bc520b71b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "測試2.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "f7127f8f924a65b3",
+  "lastOpenFiles": [
+    "ue5_GSproject/測試2.md",
+    "ue5_GSproject/第一筆記.md",
+    "Pasted image 20240902042752.png",
+    "測試2.md",
+    "未命名.md",
+    "測試.md",
+    "bg8a0rnys4axna9595wx1r36anoa0bo.png",
+    "Pasted image 20240902041616.png"
+  ]
+}

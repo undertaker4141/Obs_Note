@@ -1,0 +1,12 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "ITS Theme",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "scroll",
+    "code_breaks"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 22,
+  "nativeMenus": false
+}

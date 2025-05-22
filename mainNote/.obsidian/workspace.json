@@ -11,12 +11,14 @@
             "id": "975d43f6e8e88ebd",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "My code file.cpp"
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "My code file"
+              "title": "未命名"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "ba4395b75671e558",
+            "id": "ec622bdda05b2c9b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -82,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -229,8 +232,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2db8f61ee86329d3",
+  "active": "975d43f6e8e88ebd",
   "lastOpenFiles": [
+    "未命名.md",
     "My code file.cpp",
     "part_1_250523_012410.pdf",
     "日記/日記.md",
@@ -240,7 +244,6 @@
     "模板/模板 by Borber.md",
     "模板/模板 by 一蓑烟雨.md",
     "英文作業Abstract writing_Conclusion.md",
-    "未命名.md",
     "微處理機/第二章/CPSR與條件旗標.md",
     "微處理機/微處理機概述.md",
     "微處理機/第一章/課程資訊.md",
@@ -276,7 +279,6 @@
     "Notion",
     "Tags",
     "人工智慧概論",
-    "專題簡歷.pdf",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "5b7777ad37b64b64",
+            "id": "9ad78a2256787cdc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,17 +231,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "19116af9bae892e7",
+  "active": "ce1f4cd6834efc2b",
   "lastOpenFiles": [
+    "image.png",
     "大學課程/大二下/演算法/Untitled.md",
+    "image-2.png",
     "未命名.md",
+    "image-1.png",
+    "大學課程/大二下/演算法/演算法.md",
     "Vault.md",
     "Untitled Kanban.md",
     "大學課程/大二下/微處理機/課程筆記/第二章/CPU暫存器.md",
     "大學課程/大二下/微處理機/課程筆記/微處理機概述.md",
     "大學課程/大二下/微處理機/微處理機.md",
     "大學課程/大二下/微處理機/課程筆記",
-    "大學課程/大二下/演算法/演算法.md",
     "大學課程/大二下",
     "大學課程/大二下/演算法",
     "大學課程/大二下/人工智慧概論/人工智慧概論.md",
@@ -267,7 +269,6 @@
     "Tags",
     "part_1_250523_012410.pdf",
     "日記/日記.md",
-    "模板/未命名.md",
     "Pasted image 20250523005611.png",
     "My code file.cpp.ts",
     "My code file.py",
@@ -277,9 +278,6 @@
     "image 120.png",
     "image 119.png",
     "image 118.png",
-    "image 117.png",
-    "image 116.png",
-    "image 115.png",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

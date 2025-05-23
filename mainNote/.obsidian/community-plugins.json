@@ -27,5 +27,8 @@
   "make-md",
   "obsidian-kanban",
   "obsidian-icon-folder",
-  "github-embeds"
+  "github-embeds",
+  "image-converter",
+  "oz-image-plugin",
+  "obsidian-custom-attachment-location"
 ]

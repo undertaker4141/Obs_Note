@@ -11,12 +11,14 @@
             "id": "ce1f4cd6834efc2b",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "大學課程/大二下/演算法/附件"
+                "file": "大學課程/大二下/演算法/Untitled.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "附件"
+              "title": "Untitled"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "6792f6b8891ad312",
+            "id": "089cf5c3c05bef2d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -232,11 +234,12 @@
   },
   "active": "ce1f4cd6834efc2b",
   "lastOpenFiles": [
+    "大學課程/大二下/演算法/附件/3vA6FNv.jpg",
+    "大學課程/大二下/演算法/附件/Untitled-1748016388628.png",
+    "大學課程/大二下/演算法/Untitled.md",
     "大學課程/大二下/演算法/Untitled 1.md",
     "大學課程/大二下/演算法/附件/KcT8hTE.jpg",
     "大學課程/大二下/演算法/演算法.md",
-    "大學課程/大二下/演算法/Untitled.md",
-    "大學課程/大二下/演算法/附件/3vA6FNv.jpg",
     "大學課程/大二下/演算法/附件",
     "3vA6FNv.jpg",
     "KcT8hTE.jpg",
@@ -276,7 +279,6 @@
     "Pasted image 20250523005611.png",
     "My code file.cpp.ts",
     "image 123.png",
-    "image 122.png",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

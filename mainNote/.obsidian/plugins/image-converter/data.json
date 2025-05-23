@@ -11,9 +11,13 @@
     {
       "type": "CURRENT",
       "name": "Same folder as current note"
+    },
+    {
+      "name": "filename",
+      "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "Default (Obsidian setting)",
+  "selectedFolderPreset": "filename",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -46,7 +50,7 @@
     "folder": false,
     "filename": false
   },
-  "subfolderTemplate": "",
+  "subfolderTemplate": "{filename}",
   "conversionPresets": [
     {
       "name": "None",

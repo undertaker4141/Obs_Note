@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "33fcba2de948911d",
+            "id": "55ed0396333f5bd9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -233,9 +234,11 @@
   },
   "active": "ce1f4cd6834efc2b",
   "lastOpenFiles": [
-    "image.png",
+    "KcT8hTE.jpg",
     "大學課程/大二下/演算法/Untitled.md",
     "大學課程/大二下/演算法/演算法.md",
+    "大學課程/大二下/人工智慧概論/人工智慧概論.md",
+    "image.png",
     "image-2.png",
     "未命名.md",
     "image-1.png",
@@ -247,7 +250,6 @@
     "大學課程/大二下/微處理機/課程筆記",
     "大學課程/大二下",
     "大學課程/大二下/演算法",
-    "大學課程/大二下/人工智慧概論/人工智慧概論.md",
     "111學年度電資學院學士班畢業條件明細表_1_240924_224449.pdf",
     "大學課程",
     "模板/模板 by 一蓑烟雨.md",
@@ -277,7 +279,6 @@
     "image 121.png",
     "image 120.png",
     "image 119.png",
-    "image 118.png",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

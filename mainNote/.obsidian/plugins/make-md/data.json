@@ -47,12 +47,12 @@
     "//微處理機",
     "//人工智慧概論",
     "//Templater",
-    "/",
     "微處理機",
     "微處理機/微處理機/第六章",
     "微處理機/微處理機/第五章",
     "//微處理機/微處理機/第二章",
-    "//模板"
+    "//模板",
+    "/"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -64,6 +64,8 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

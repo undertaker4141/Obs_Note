@@ -22,7 +22,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 0,
+  "currentWaypoint": 1,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": true,
@@ -46,13 +46,21 @@
     "微處理機/微處理機/第六章",
     "微處理機/微處理機/第五章",
     "//微處理機/微處理機/第二章",
+    "//大學課程/大學課程/大二下/大學課程/大二下/演算法",
+    "//大學課程/大學課程/大二下/大學課程/大二下/微處理機/大學課程/大二下/微處理機/第三章",
     "/",
     "//大學課程",
     "//大學課程/大學課程/大二下",
-    "大學課程/大二下",
-    "//大學課程/大學課程/大二下/大學課程/大二下/演算法",
     "//大學課程/大學課程/大二下/大學課程/大二下/微處理機",
-    "//大學課程/大學課程/大二下/大學課程/大二下/微處理機/大學課程/大二下/微處理機/第三章"
+    "大學課程/大二下/大學課程/大二下/微處理機",
+    "大學課程/大二下/大學課程/大二下/微處理機/大學課程/大二下/微處理機/課程筆記",
+    "大學課程",
+    "大學課程/大學課程/大二下",
+    "大學課程/大學課程/大二下/大學課程/大二下/微處理機",
+    "大學課程/大學課程/大二下/大學課程/大二下/微處理機/大學課程/大二下/微處理機/課程筆記",
+    "大學課程/大學課程/大二下/大學課程/大二下/微處理機/大學課程/大二下/微處理機/課程筆記/大學課程/大二下/微處理機/課程筆記/第二章",
+    "大學課程/大二下",
+    "大學課程/大二下/大學課程/大二下/演算法"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -200,7 +208,7 @@
     "overrideNativeMenu": false
   },
   "firstLaunch": true,
-  "notesPreview": false,
+  "notesPreview": true,
   "editStickerInSidebar": true,
   "overrideNativeMenu": true
 }

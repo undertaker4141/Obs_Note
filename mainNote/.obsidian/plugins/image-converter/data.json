@@ -13,11 +13,11 @@
       "name": "Same folder as current note"
     },
     {
-      "name": "filename",
+      "name": "notename",
       "type": "SUBFOLDER"
     }
   ],
-  "selectedFolderPreset": "filename",
+  "selectedFolderPreset": "notename",
   "filenamePresets": [
     {
       "name": "Keep original name",
@@ -50,7 +50,7 @@
     "folder": false,
     "filename": false
   },
-  "subfolderTemplate": "{filename}",
+  "subfolderTemplate": "{notename}",
   "conversionPresets": [
     {
       "name": "None",

@@ -11,14 +11,12 @@
             "id": "975d43f6e8e88ebd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "桌機同步測試2.md",
-                "mode": "source",
-                "source": false
+                "path": "大學課程/大二下"
               },
               "icon": "lucide-file",
-              "title": "桌機同步測試2"
+              "title": "大二下"
             }
           }
         ]
@@ -89,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.51625061035156
+    "width": 487.51625061035156
   },
   "right": {
     "id": "9faf2416e2c6517e",
@@ -153,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My code file.cpp",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "My code file 的大綱"
+              "title": "大綱"
             }
           },
           {
@@ -168,8 +165,8 @@
             "state": {
               "type": "side-panel-control-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
             }
           },
           {
@@ -178,8 +175,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -232,43 +229,44 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "975d43f6e8e88ebd",
+  "active": "19116af9bae892e7",
   "lastOpenFiles": [
+    "大學課程/大二下/演算法/演算法.md",
+    "大學課程/大二下",
+    "大學課程/大二下/演算法",
+    "大學課程/大二下/微處理機/第二章/CPU暫存器.md",
+    "大學課程/大二下/微處理機/微處理機.md",
+    "大學課程/大二下/人工智慧概論/人工智慧概論.md",
+    "大學課程/大二下/微處理機/微處理機概述.md",
+    "111學年度電資學院學士班畢業條件明細表_1_240924_224449.pdf",
+    "大學課程",
+    "未命名.md",
+    "模板/模板 by 一蓑烟雨.md",
+    "create a link.md",
+    "模板/模板 by Borber.md",
+    "模板/日記模板.md",
+    "日記/2025-05-23.md",
+    "Templater/Daily note.md",
+    "Templater/Templater.md",
+    "未命名 1.md",
+    "Welcome.md",
+    "英文作業Abstract writing_Results.md",
+    "英文作業Abstract writing_Conclusion.md",
+    "My code file.cpp",
+    "測試.md",
+    "筆電測試同步.md",
     "桌機測試同步.md",
     "桌機同步測試2.md",
-    "筆電測試同步.md",
-    "測試.md",
-    "未命名.md",
     "Tags",
-    "My code file.cpp",
     "part_1_250523_012410.pdf",
     "日記/日記.md",
-    "模板/日記模板.md",
     "模板/未命名.md",
     "日記/2025-05-10.md",
-    "模板/模板 by Borber.md",
-    "模板/模板 by 一蓑烟雨.md",
-    "英文作業Abstract writing_Conclusion.md",
-    "微處理機/第二章/CPSR與條件旗標.md",
-    "微處理機/微處理機概述.md",
-    "微處理機/第一章/課程資訊.md",
-    "微處理機/第一章/課程介紹與基礎.md",
-    "微處理機/第一章/硬體介紹.md",
-    "微處理機/第二章/CPU暫存器.md",
+    "大學課程/大二下/微處理機/第二章/CPSR與條件旗標.md",
     "Pasted image 20250523005611.png",
-    "人工智慧概論/HW2 Diabetes Classification Using ANN.md",
-    "未命名 3.md",
-    "微處理機/第二章/記憶體映射.md",
-    "微處理機/第二章/基本指令集.md",
-    "微處理機/第一章/開發工具與環境.md",
-    "微處理機/第六章/位元可定址記憶體.md",
-    "微處理機/第二章/ARM架構與組合語言程式設計.md",
-    "test.cpp.md",
     "My code file.cpp.ts",
-    "111學年度電資學院學士班畢業條件明細表_1_240924_224449.pdf",
     "My code file.py",
     "My code file.ts",
-    "4112064205.pdf",
     "image 123.png",
     "image 122.png",
     "image 121.png",
@@ -278,8 +276,6 @@
     "image 117.png",
     "image 116.png",
     "image 115.png",
-    "Notion",
-    "人工智慧概論",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

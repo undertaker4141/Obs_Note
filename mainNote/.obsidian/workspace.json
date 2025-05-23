@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "桌機測試同步.md",
+                "file": "桌機同步測試2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "桌機測試同步"
+              "title": "桌機同步測試2"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "c900351d1744eb18",
+            "id": "78b5e2654845f9e0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -234,8 +234,9 @@
   },
   "active": "975d43f6e8e88ebd",
   "lastOpenFiles": [
-    "筆電測試同步.md",
     "桌機測試同步.md",
+    "桌機同步測試2.md",
+    "筆電測試同步.md",
     "測試.md",
     "未命名.md",
     "Tags",
@@ -264,7 +265,6 @@
     "微處理機/第二章/ARM架構與組合語言程式設計.md",
     "test.cpp.md",
     "My code file.cpp.ts",
-    "未命名 1.md",
     "111學年度電資學院學士班畢業條件明細表_1_240924_224449.pdf",
     "My code file.py",
     "My code file.ts",

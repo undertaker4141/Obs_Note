@@ -11,14 +11,12 @@
             "id": "ce1f4cd6834efc2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "大學課程/大二下/演算法/Untitled.md",
-                "mode": "source",
-                "source": false
+                "path": "大學課程/大二下/演算法/附件"
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "附件"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "777f569c1d064a98",
+            "id": "6792f6b8891ad312",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,7 +82,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -233,9 +232,13 @@
   },
   "active": "ce1f4cd6834efc2b",
   "lastOpenFiles": [
-    "3vA6FNv.jpg",
+    "大學課程/大二下/演算法/Untitled 1.md",
+    "大學課程/大二下/演算法/附件/KcT8hTE.jpg",
     "大學課程/大二下/演算法/演算法.md",
     "大學課程/大二下/演算法/Untitled.md",
+    "大學課程/大二下/演算法/附件/3vA6FNv.jpg",
+    "大學課程/大二下/演算法/附件",
+    "3vA6FNv.jpg",
     "KcT8hTE.jpg",
     "大學課程/大二下/人工智慧概論/人工智慧概論.md",
     "image.png",
@@ -270,14 +273,10 @@
     "桌機同步測試2.md",
     "Tags",
     "part_1_250523_012410.pdf",
-    "日記/日記.md",
     "Pasted image 20250523005611.png",
     "My code file.cpp.ts",
-    "My code file.py",
     "image 123.png",
     "image 122.png",
-    "image 121.png",
-    "image 120.png",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

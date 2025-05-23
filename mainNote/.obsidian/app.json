@@ -7,5 +7,5 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
-  "newFileLocation": "folder"
+  "newFileLocation": "current"
 }

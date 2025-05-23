@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "./assets/${filename}",
-  "attachmentRenameMode": "All",
+  "attachmentRenameMode": "Only pasted images",
   "customTokensStr": "",
   "duplicateNameSeparator": " ",
   "emptyAttachmentFolderBehavior": "DeleteWithEmptyParents",
@@ -11,7 +11,7 @@
   "markdownUrlFormat": "",
   "shouldConvertPastedImagesToJpeg": false,
   "shouldDeleteOrphanAttachments": false,
-  "shouldRenameAttachmentFiles": true,
+  "shouldRenameAttachmentFiles": false,
   "shouldRenameAttachmentFolder": true,
   "shouldRenameAttachmentsToLowerCase": false,
   "shouldRenameCollectedAttachments": false,
@@ -20,5 +20,5 @@
   "treatAsAttachmentExtensions": [
     ".excalidraw.md"
   ],
-  "warningVersion": "7.7.2"
+  "warningVersion": "7.7.3"
 }

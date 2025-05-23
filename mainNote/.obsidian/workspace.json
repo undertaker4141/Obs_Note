@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "測試.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "測試"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "ec622bdda05b2c9b",
+            "id": "f529a64e4bb6fd0c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -168,8 +168,8 @@
             "state": {
               "type": "side-panel-control-view",
               "state": {},
-              "icon": "viewIcon",
-              "title": "Markdown-Autocomplete"
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
             }
           },
           {
@@ -178,8 +178,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
             }
           },
           {
@@ -188,8 +188,8 @@
             "state": {
               "type": "quiet-outline",
               "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
             }
           },
           {
@@ -235,6 +235,8 @@
   "active": "975d43f6e8e88ebd",
   "lastOpenFiles": [
     "未命名.md",
+    "測試.md",
+    "Tags",
     "My code file.cpp",
     "part_1_250523_012410.pdf",
     "日記/日記.md",
@@ -277,7 +279,6 @@
     "image 116.png",
     "image 115.png",
     "Notion",
-    "Tags",
     "人工智慧概論",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",

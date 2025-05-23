@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "./assets/${filename}",
-  "attachmentRenameMode": "Only pasted images",
+  "attachmentRenameMode": "All",
   "customTokensStr": "",
   "duplicateNameSeparator": " ",
   "emptyAttachmentFolderBehavior": "DeleteWithEmptyParents",
@@ -11,7 +11,7 @@
   "markdownUrlFormat": "",
   "shouldConvertPastedImagesToJpeg": false,
   "shouldDeleteOrphanAttachments": false,
-  "shouldRenameAttachmentFiles": false,
+  "shouldRenameAttachmentFiles": true,
   "shouldRenameAttachmentFolder": true,
   "shouldRenameAttachmentsToLowerCase": false,
   "shouldRenameCollectedAttachments": false,

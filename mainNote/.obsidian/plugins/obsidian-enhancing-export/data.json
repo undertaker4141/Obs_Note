@@ -7,7 +7,8 @@
       "name": "Markdown (Hugo)"
     },
     {
-      "name": "Html"
+      "name": "Html",
+      "runCommand": false
     },
     {
       "name": "TextBundle"
@@ -56,5 +57,6 @@
   "lastExportDirectory": {
     "win32": "C:\\Users\\undertaker\\OneDrive\\桌面"
   },
-  "lastExportType": "Markdown"
+  "lastExportType": "Html",
+  "lastEditName": "Html"
 }

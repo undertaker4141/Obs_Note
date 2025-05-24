@@ -11,12 +11,14 @@
             "id": "ce1f4cd6834efc2b",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "大學課程/大二下/演算法/{filename}"
+                "file": "大學課程/大二下/微處理機/課堂作業/lab_14.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "{filename}"
+              "title": "lab_14"
             }
           }
         ]
@@ -73,7 +75,7 @@
             }
           },
           {
-            "id": "089cf5c3c05bef2d",
+            "id": "33c7fd625a68b0f6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -151,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大學課程/大二下/演算法/Untitled.md",
+                "file": "大學課程/大二下/微處理機/課堂作業/lab_14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Untitled 的大綱"
+              "title": "lab_14 的大綱"
             }
           },
           {
@@ -186,8 +188,8 @@
             "state": {
               "type": "quiet-outline",
               "state": {},
-              "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           },
           {
@@ -230,28 +232,35 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ce1f4cd6834efc2b",
+  "active": "19116af9bae892e7",
   "lastOpenFiles": [
-    "大學課程/大二下/演算法/Untitled 1.md",
-    "大學課程/大二下/演算法/{filename}/Untitled 1-1748018482331.png",
-    "大學課程/大二下/演算法/{filename}",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748081380364.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748081267858.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748080987978.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748080643253.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14.md",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085302515.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085264051.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085185324.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085109274.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085075876.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748084520766.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085005051.png",
+    "大學課程/大二下/微處理機/課堂作業/lab_14",
+    "大學課程/大二下/微處理機/課堂作業/課堂作業.md",
+    "大學課程/大二下/微處理機/課堂作業",
+    "大學課程/大二下/微處理機/課程筆記/微處理機概述.md",
     "大學課程/大二下/演算法/Untitled.md",
-    "大學課程/大二下/演算法/附件/3vA6FNv.jpg",
-    "大學課程/大二下/演算法/附件/Untitled-1748016388628.png",
-    "大學課程/大二下/演算法/附件/KcT8hTE.jpg",
+    "大學課程/大二下/演算法/Untitled",
+    "大學課程/大二下/演算法/Untitled 1.md",
+    "大學課程/大二下/演算法/{filename}",
     "大學課程/大二下/演算法/演算法.md",
     "大學課程/大二下/演算法/附件",
-    "3vA6FNv.jpg",
-    "KcT8hTE.jpg",
     "大學課程/大二下/人工智慧概論/人工智慧概論.md",
-    "image.png",
-    "image-2.png",
     "未命名.md",
-    "image-1.png",
     "Vault.md",
     "Untitled Kanban.md",
     "大學課程/大二下/微處理機/課程筆記/第二章/CPU暫存器.md",
-    "大學課程/大二下/微處理機/課程筆記/微處理機概述.md",
     "大學課程/大二下/微處理機/微處理機.md",
     "大學課程/大二下/微處理機/課程筆記",
     "大學課程/大二下",
@@ -269,14 +278,8 @@
     "Welcome.md",
     "英文作業Abstract writing_Results.md",
     "英文作業Abstract writing_Conclusion.md",
-    "My code file.cpp",
     "測試.md",
     "筆電測試同步.md",
-    "桌機測試同步.md",
-    "桌機同步測試2.md",
-    "Tags",
-    "part_1_250523_012410.pdf",
-    "Pasted image 20250523005611.png",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

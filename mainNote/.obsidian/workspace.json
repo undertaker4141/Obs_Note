@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "b77123f6e975201a",
+        "id": "7c4390ab21dfaa4d",
         "type": "tabs",
         "children": [
           {
-            "id": "ce1f4cd6834efc2b",
+            "id": "302840ae460f93c3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "模板/banner.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "banner"
+            }
+          },
+          {
+            "id": "237d61f40eb46279",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/微處理機/課堂作業/lab_14.md",
+                "file": "大學課程/大二下/Unix系統與Script程式設計/c7_basic_file_processing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lab_14"
+              "title": "c7_basic_file_processing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +88,7 @@
             }
           },
           {
-            "id": "ae2c9071e91569e4",
+            "id": "a92534db77b8c09b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -232,21 +245,29 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ce1f4cd6834efc2b",
+  "active": "237d61f40eb46279",
   "lastOpenFiles": [
+    "大學課程/大二下/Unix系統與Script程式設計/c7_basic_file_processing.md",
+    "大學課程/大二下/Unix系統與Script程式設計/Unix系統與Script程式設計.md",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
+    "模板/banner.jpg",
+    "Vault.md",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282534731.png",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282286807.png",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282247701.png",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282188293.jpg",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282147842.webp",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748281999870.png",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security_250527_014609.pdf",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748281912391.jpg",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security",
+    "大學課程/大二下/Unix系統與Script程式設計/附件",
+    "大學課程/大二下/Unix系統與Script程式設計",
+    "大學課程/大二下/微處理機/課堂作業/lab_14.md",
     "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748093758657.png",
     "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085185324.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085302515.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14.md",
     "大學課程/大二下/微處理機/課堂作業/tex2pdf.-0ad427db26088996",
     "大學課程/大二下/微處理機/課堂作業/tex2pdf.-afd92f2e526161ad",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748081380364.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748081267858.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748080987978.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748080643253.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085264051.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085109274.png",
-    "大學課程/大二下/微處理機/課堂作業/lab_14/lab_14-1748085075876.png",
     "大學課程/大二下/微處理機/課堂作業/lab_14",
     "大學課程/大二下/微處理機/課堂作業/課堂作業.md",
     "大學課程/大二下/微處理機/課堂作業",
@@ -256,16 +277,11 @@
     "大學課程/大二下/演算法/Untitled 1.md",
     "大學課程/大二下/演算法/{filename}",
     "大學課程/大二下/演算法/演算法.md",
-    "大學課程/大二下/演算法/附件",
     "大學課程/大二下/人工智慧概論/人工智慧概論.md",
     "未命名.md",
-    "Vault.md",
     "Untitled Kanban.md",
     "大學課程/大二下/微處理機/課程筆記/第二章/CPU暫存器.md",
     "大學課程/大二下/微處理機/微處理機.md",
-    "大學課程/大二下/微處理機/課程筆記",
-    "大學課程/大二下",
-    "大學課程/大二下/演算法",
     "模板/模板 by 一蓑烟雨.md",
     "create a link.md",
     "模板/模板 by Borber.md",
@@ -277,8 +293,6 @@
     "Welcome.md",
     "英文作業Abstract writing_Results.md",
     "英文作業Abstract writing_Conclusion.md",
-    "測試.md",
-    "筆電測試同步.md",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

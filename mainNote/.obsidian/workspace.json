@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0f80775f4bf94443",
+        "id": "86d541a42aade59a",
         "type": "tabs",
         "children": [
           {
-            "id": "9acd942ac0447101",
+            "id": "da2f97bbd25ceb73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security_250527_014609.pdf",
-                "page": 9,
-                "left": -30,
-                "top": 30,
-                "zoom": 1.9
+                "file": "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "c6_file_security_250527_014609"
+              "icon": "lucide-file",
+              "title": "Unix學習筆記_總覽"
             }
           }
         ]
@@ -77,7 +75,7 @@
             }
           },
           {
-            "id": "7c0508c371db1efb",
+            "id": "e3133ff719432d90",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -273,12 +271,22 @@
       }
     ]
   },
-  "active": "9acd942ac0447101",
+  "active": "da2f97bbd25ceb73",
   "lastOpenFiles": [
-    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
-    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security_250527_014609.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/c7_basic_file_processing.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/基本檔案處理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/期末考筆記.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/重導向與管線.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/行程.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案分享.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/進階檔案處理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案安全.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記",
     "大學課程/大二下/Unix系統與Script程式設計/Unix系統與Script程式設計.md",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security_250527_014609.pdf",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
+    "大學課程/大二下/Unix系統與Script程式設計/c7_basic_file_processing.md",
     "模板/banner.jpg",
     "Vault.md",
     "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282534731.png",
@@ -303,7 +311,6 @@
     "大學課程/大二下/演算法/Untitled.md",
     "大學課程/大二下/演算法/Untitled",
     "大學課程/大二下/演算法/Untitled 1.md",
-    "大學課程/大二下/演算法/{filename}",
     "大學課程/大二下/演算法/演算法.md",
     "大學課程/大二下/人工智慧概論/人工智慧概論.md",
     "未命名.md",
@@ -312,14 +319,6 @@
     "大學課程/大二下/微處理機/微處理機.md",
     "模板/模板 by 一蓑烟雨.md",
     "create a link.md",
-    "模板/模板 by Borber.md",
-    "模板/日記模板.md",
-    "日記/2025-05-23.md",
-    "Templater/Daily note.md",
-    "Templater/Templater.md",
-    "未命名 1.md",
-    "Welcome.md",
-    "英文作業Abstract writing_Results.md",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

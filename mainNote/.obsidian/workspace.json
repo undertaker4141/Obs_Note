@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
+                "file": "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unix學習筆記_總覽"
+              "title": "Shell程式設計"
             }
           }
         ]
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大學課程/大二下/微處理機/課堂作業/lab_14.md",
+                "file": "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lab_14 的大綱"
+              "title": "Shell程式設計 的大綱"
             }
           },
           {
@@ -232,60 +232,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "floating": {
-    "id": "6e0cb8f0bd9de33c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5ae24b6c8c74faf5",
-        "type": "window",
-        "children": [
-          {
-            "id": "06fbf698b3e0ccd4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "237d61f40eb46279",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "c6_file_security"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1456,
-        "y": 22,
-        "width": 994,
-        "height": 1440,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "da2f97bbd25ceb73",
+  "active": "19116af9bae892e7",
   "lastOpenFiles": [
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/基本檔案處理.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/期末考筆記.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/重導向與管線.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/行程.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案分享.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/進階檔案處理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
+    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/期末考筆記.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案安全.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/進階檔案處理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/重導向與管線.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案分享.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/基本檔案處理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記",
     "大學課程/大二下/Unix系統與Script程式設計/Unix系統與Script程式設計.md",
     "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security_250527_014609.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
     "大學課程/大二下/Unix系統與Script程式設計/c7_basic_file_processing.md",
     "模板/banner.jpg",
     "Vault.md",

@@ -1,3 +1,7 @@
+---
+banner: 模板/banner.jpg
+banner_y: "87.5"
+---
 # Shell 程式設計 (Introductory Bourne Shell Programming)
 
 (來源: c12_shell_programming.pdf)

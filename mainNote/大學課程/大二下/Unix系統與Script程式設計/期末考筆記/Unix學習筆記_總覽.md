@@ -1,3 +1,7 @@
+---
+banner: 模板/banner.jpg
+banner_y: "87"
+---
 # Unix 學習筆記 - 總覽
 
 這是一份 Unix/Linux 相關概念的學習筆記，內容整理自提供的 PDF 文件。

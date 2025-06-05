@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86d541a42aade59a",
+        "id": "4864f7504a10e7e2",
         "type": "tabs",
         "children": [
           {
-            "id": "ac0459a4e984adf3",
+            "id": "f800c653273e40cc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupA_2024_Sol.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 846,
-                "zoom": 2.4417081037494963
+                "file": "大學課程/大二下/微處理機/課堂作業/Final_Project/第一部分.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Final_GroupA_2024_Sol"
+              "icon": "lucide-file",
+              "title": "第一部分"
             }
           }
         ]
@@ -77,7 +75,7 @@
             }
           },
           {
-            "id": "90cc3c18f1c414d1",
+            "id": "671922908febdb96",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -234,49 +232,50 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ac0459a4e984adf3",
+  "active": "f800c653273e40cc",
   "lastOpenFiles": [
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_2023_sol.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/考古.md",
+    "大學課程/大二下/微處理機/課堂作業/Final_Project/第一部分.md",
+    "大學課程/大二下/微處理機/課堂作業/Final_Project/Final_Project.md",
+    "大學課程/大二下/微處理機/課堂作業/Final_Project",
+    "大學課程/大二下/微處理機/課堂作業/課堂作業.md",
+    "大學課程/大二下/微處理機/Untitled.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupB_2024_Sol.pdf",
+    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec11_最短路徑.md",
+    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec10_最小生成樹.md",
+    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec07_計數排序.md",
+    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec05_大師定理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupB_2024.pdf",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/114-Final-2.jpg",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/114-Final-1.jpg",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/113-Final.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/_-Final.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupA_2024_Sol.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupB_2024_Sol.pdf",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupB_2024.pdf",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_2023_sol.pdf",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/行程.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupA_2024.pdf",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_2024.pdf",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案分享.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/基本檔案處理.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupA_2024_Sol.pdf",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/考古.md",
+    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/_-Final.pdf",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/期末考筆記.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/homework/homework.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/homework/4112064205_hw10.pdf",
-    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec10_最小生成樹.md",
     "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec09_圖形搜尋與拓樸排序.md",
-    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec07_計數排序.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案分享.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/進階檔案處理.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/檔案安全.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Unix學習筆記_總覽.md",
     "大學課程/大二下/演算法/期末考筆記/演算法筆記_總覽與考試重點.md",
-    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec05_大師定理.md",
     "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec13_動態規劃.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/基本檔案處理.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/Shell程式設計.md",
     "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/重導向與管線.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/行程.md",
-    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec11_最短路徑.md",
     "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec08_堆積排序.md",
     "大學課程/大二下/演算法/期末考筆記/期末考筆記.md",
     "大學課程/大二下/演算法/演算法.md",
     "大學課程/大二下/演算法/Untitled.md",
     "大學課程/大二下/演算法/Untitled/Untitled-1748018577660.png",
-    "大學課程/大二下/演算法/Untitled 1.md",
     "大學課程/大二下/演算法/附件/KcT8hTE.jpg",
     "大學課程/大二下/演算法/附件/Untitled-1748016388628.png",
     "大學課程/大二下/演算法/附件/3vA6FNv.jpg",
-    "大學課程/大二下/Unix系統與Script程式設計/c6_file_security.md",
-    "大學課程/大二下/Unix系統與Script程式設計/Unix系統與Script程式設計.md",
     "模板/banner.jpg",
     "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282534731.png",
     "大學課程/大二下/Unix系統與Script程式設計/c6_file_security/c6_file_security-1748282286807.png",

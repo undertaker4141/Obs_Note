@@ -22,7 +22,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": true,
@@ -61,10 +61,11 @@
     "//模板",
     "大學課程/大二下/大學課程/大二下/演算法",
     "大學課程/大二下/大學課程/大二下/演算法/大學課程/大二下/演算法/期末考筆記",
-    "大學課程/大二下",
     "大學課程/大二下/大學課程/大二下/Unix系統與Script程式設計",
-    "大學課程/大二下/大學課程/大二下/Unix系統與Script程式設計/大學課程/大二下/Unix系統與Script程式設計/期末考筆記",
-    "大學課程/大二下/大學課程/大二下/Unix系統與Script程式設計/大學課程/大二下/Unix系統與Script程式設計/期末考筆記/大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古"
+    "大學課程/大二下/大學課程/大二下/Unix系統與Script程式設計/大學課程/大二下/Unix系統與Script程式設計/期末考筆記/大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古",
+    "大學課程/大二下/微處理機",
+    "大學課程/大二下/微處理機/大學課程/大二下/微處理機/課堂作業",
+    "大學課程/大二下/微處理機/大學課程/大二下/微處理機/課堂作業/大學課程/大二下/微處理機/課堂作業/Final_Project"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

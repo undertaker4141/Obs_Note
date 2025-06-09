@@ -53,14 +53,12 @@
             "id": "0ab8ce7327b035de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "大學課程/大二下/微處理機/Final_Project/第四部份.md",
-                "mode": "source",
-                "source": false
+                "path": "大學課程/大二下/微處理機/Final_Project"
               },
               "icon": "lucide-file",
-              "title": "第四部份"
+              "title": "Final_Project"
             }
           }
         ],
@@ -275,16 +273,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "19116af9bae892e7",
+  "active": "771027632233698e",
   "lastOpenFiles": [
+    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
+    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
     "大學課程/大二下/微處理機/Final_Project/第一部分.md",
     "大學課程/大二下/微處理機/Final_Project/第二部分.md",
     "大學課程/大二下/微處理機/Final_Project/第三部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
     "大學課程/大二下/微處理機/Final_Project/第四部份/第四部份-1749465370261.png",
     "大學課程/大二下/微處理機/Final_Project/第四部份/第四部份-1749460424580.png",
     "大學課程/大二下/微處理機/Final_Project/第四部份",
-    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/微處理機/Final_Project/第三部分/第三部分-1749459260216.png",
     "大學課程/大二下/微處理機/Final_Project/第三部分/第三部分-1749457794373.png",
     "大學課程/大二下/微處理機/Final_Project/第三部分",

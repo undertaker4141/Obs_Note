@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "大學課程/大二下/微處理機/Final_Project/第四部份.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,15 +64,17 @@
             }
           },
           {
-            "id": "db5633e0beac7cf6",
+            "id": "522c1cae14216fdb",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "大學課程/大二下/電子學/課堂錄音逐字稿"
+                "file": "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "課堂錄音逐字稿"
+              "title": "第五部分"
             }
           }
         ],
@@ -174,17 +176,32 @@
             }
           },
           {
+            "id": "e25fdfe018c975eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "第五部分 的大綱"
+            }
+          },
+          {
             "id": "c9698e1b97063c6a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "大學課程/大二下/微處理機/Final_Project/第五部分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的對外連結"
+              "title": "第五部分 的對外連結"
             }
           },
           {
@@ -200,21 +217,6 @@
               },
               "icon": "lucide-tags",
               "title": "標籤"
-            }
-          },
-          {
-            "id": "e25fdfe018c975eb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "大學課程/大二下/微處理機/Final_Project/第一部分.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "第一部分 的大綱"
             }
           },
           {
@@ -287,8 +289,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "db5633e0beac7cf6",
+  "active": "19116af9bae892e7",
   "lastOpenFiles": [
+    "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842182008.png",
+    "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842133169.png",
+    "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842035929.png",
+    "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842016976.png",
+    "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749841823127.png",
+    "大學課程/大二下/微處理機/Final_Project/第五部分",
+    "大學課程/大二下/微處理機/Final_Project/第三部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第二部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
+    "大學課程/大二下/微處理機/Final_Project/第一部分.md",
+    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/課堂錄音逐字稿.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0604_last.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0611.md",
@@ -307,24 +321,15 @@
     "大學課程/大二下/人工智慧概論/HW_3/HW_3.md",
     "大學課程/大二下/人工智慧概論/HW_3",
     "大學課程/大二下/人工智慧概論/人工智慧概論.md",
-    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
-    "大學課程/大二下/微處理機/Final_Project/第一部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第二部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第三部分.md",
-    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/微處理機/Final_Project/第四部份/第四部份-1749465370261.png",
     "大學課程/大二下/微處理機/Final_Project/第四部份/第四部份-1749460424580.png",
     "大學課程/大二下/微處理機/Final_Project/第四部份",
     "大學課程/大二下/微處理機/Final_Project/第三部分/第三部分-1749459260216.png",
     "大學課程/大二下/微處理機/Final_Project/第三部分/第三部分-1749457794373.png",
     "大學課程/大二下/微處理機/Final_Project/第三部分",
-    "大學課程/大二下/微處理機/Final_Project/第二部分/第二部分-1749456558678.png",
-    "大學課程/大二下/微處理機/Final_Project/第二部分/第二部分-1749455563142.png",
     "大學課程/大二下/微處理機/Final_Project/第二部分",
     "大學課程/大二下/微處理機/課程筆記/第六章/第六章.md",
-    "大學課程/大二下/微處理機/Final_Project/第一部分/第一部分-1749139684418.png",
     "大學課程/大二下/微處理機/課程筆記/第四章/第四章.md",
-    "大學課程/大二下/微處理機/Final_Project/第一部分/第一部分-1749137367875.png",
     "大學課程/大二下/微處理機/課堂作業/lab_14.md",
     "大學課程/大二下/微處理機/課堂作業/課堂作業.md",
     "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec08_堆積排序.md",
@@ -332,9 +337,6 @@
     "大學課程/大二下/微處理機/Final_Project/第一部分",
     "大學課程/大二下/微處理機/Final_Project",
     "大學課程/大二下/微處理機/Untitled.md",
-    "大學課程/大二下/Unix系統與Script程式設計/期末考筆記/考古/Final_GroupB_2024_Sol.pdf",
-    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec11_最短路徑.md",
-    "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec10_最小生成樹.md",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",
     "未命名 1.canvas"

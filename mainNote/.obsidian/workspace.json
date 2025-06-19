@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+                "file": "大學課程/大二下/微處理機/Final_Project/README.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第五部分"
+              "title": "README.md"
             }
           }
         ],
@@ -291,8 +291,10 @@
   },
   "active": "522c1cae14216fdb",
   "lastOpenFiles": [
-    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
+    "大學課程/大二下/微處理機/Final_Project/README.md.md",
+    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
     "大學課程/大二下/微處理機/Final_Project/第三部分.md",
     "大學課程/大二下/微處理機/Final_Project/第二部分.md",
     "大學課程/大二下/微處理機/Final_Project/第一部分.md",
@@ -305,7 +307,6 @@
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842016976.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749841823127.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分",
-    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/課堂錄音逐字稿.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0604_last.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0611.md",
@@ -335,7 +336,6 @@
     "大學課程/大二下/微處理機/課堂作業/lab_14.md",
     "大學課程/大二下/微處理機/課堂作業/課堂作業.md",
     "大學課程/大二下/演算法/期末考筆記/演算法筆記_Lec08_堆積排序.md",
-    "大學課程/大二下/微處理機/課程筆記/微處理機概述.md",
     "大學課程/大二下/微處理機/Final_Project/第一部分",
     "未命名.canvas",
     "ue5_GSproject/未命名.canvas",

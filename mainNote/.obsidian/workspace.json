@@ -91,7 +91,8 @@
               "title": "README.md"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -302,15 +303,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f800c653273e40cc",
+  "active": "ff6a7f85d95b32f0",
   "lastOpenFiles": [
-    "大學課程/大二下/微處理機/Final_Project/第二部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第三部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
     "大學課程/大二下/微處理機/Final_Project/第五部分.md",
     "大學課程/大二下/微處理機/Final_Project/README.md.md",
-    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/微處理機/Final_Project/第一部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第四部份.md",
+    "大學課程/大二下/微處理機/Final_Project/第三部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第二部分.md",
+    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/英文/英文摘要與研究動機文稿.md",
     "大學課程/大二下/英文/英文.md",
     "大學課程/大二下/英文",

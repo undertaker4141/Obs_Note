@@ -17,5 +17,5 @@ a8925525a@gmail.com
 
 4. 整合報告之 obsidian 筆記資料夾
 
-5. 最後整合結錄製影片之連結(youtube)
+5. 最後整合結錄製影片之連結(youtube) https://youtu.be/VP4miKIpJKY
 

@@ -77,7 +77,8 @@
               "title": "第五部分"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,9 +289,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f800c653273e40cc",
+  "active": "4f9e27b5e1ec5c4f",
   "lastOpenFiles": [
     "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第二部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第三部分.md",
+    "大學課程/大二下/微處理機/Final_Project/第一部分.md",
     "大學課程/大二下/英文/英文摘要與研究動機文稿.md",
     "大學課程/大二下/英文/英文.md",
     "大學課程/大二下/英文",
@@ -301,9 +305,6 @@
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842016976.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749841823127.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分",
-    "大學課程/大二下/微處理機/Final_Project/第三部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第二部分.md",
-    "大學課程/大二下/微處理機/Final_Project/第一部分.md",
     "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/課堂錄音逐字稿.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0604_last.md",

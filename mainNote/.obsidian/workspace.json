@@ -69,16 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/英文/英文摘要與研究動機文稿.md",
+                "file": "大學課程/大二下/微處理機/Final_Project/第五部分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "英文摘要與研究動機文稿"
+              "title": "第五部分"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
             }
           },
           {
-            "id": "817454c0f96894b6",
+            "id": "2250aabbf35f7fb8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -264,7 +263,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,12 +288,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "522c1cae14216fdb",
+  "active": "f800c653273e40cc",
   "lastOpenFiles": [
+    "大學課程/大二下/微處理機/Final_Project/第五部分.md",
     "大學課程/大二下/英文/英文摘要與研究動機文稿.md",
     "大學課程/大二下/英文/英文.md",
     "大學課程/大二下/英文",
-    "大學課程/大二下/微處理機/Final_Project/第五部分.md",
     "大學課程/大二下/微處理機/Final_Project/第四部份.md",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842182008.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842133169.png",

@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大學課程/大二下/微處理機/Final_Project/README.md.md",
-                "mode": "source",
+                "file": "大學課程/大二下/英文/英文摘要與研究動機文稿.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "英文摘要與研究動機文稿"
             }
           }
         ],
@@ -146,7 +146,7 @@
             }
           },
           {
-            "id": "2250aabbf35f7fb8",
+            "id": "fa0179c998432de4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -305,8 +305,9 @@
   },
   "active": "ff6a7f85d95b32f0",
   "lastOpenFiles": [
-    "大學課程/大二下/微處理機/Final_Project/第五部分.md",
+    "大學課程/大二下/電子學/課堂錄音逐字稿/課堂錄音逐字稿.md",
     "大學課程/大二下/微處理機/Final_Project/README.md.md",
+    "大學課程/大二下/微處理機/Final_Project/第五部分.md",
     "大學課程/大二下/微處理機/Final_Project/第一部分.md",
     "大學課程/大二下/微處理機/Final_Project/第四部份.md",
     "大學課程/大二下/微處理機/Final_Project/第三部分.md",
@@ -321,7 +322,6 @@
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842016976.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749841823127.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分",
-    "大學課程/大二下/電子學/課堂錄音逐字稿/課堂錄音逐字稿.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0604_last.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0611.md",
     "大學課程/大二下/電子學/課堂錄音逐字稿/0514.md",

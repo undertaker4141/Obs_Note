@@ -12,16 +12,16 @@
   "keepPropsState": false,
   "onboarding": {},
   "recentFiles": [
-    "大學課程/專題/環境架設/Untitled.md",
+    "大學課程/專題/Untitled.md",
+    "大學課程/專題/專題.md",
     "大學課程/專題/環境架設/環境架設.md",
-    "大學課程/專題/環境架設/WSL (Ubuntu) 繁體中文環境設定.md",
     "大學課程/專題/環境架設/官方WSLg 筆記：在 Windows 上執行 Linux GUI 應用程式.md",
+    "大學課程/專題/環境架設/Untitled.md",
+    "大學課程/專題/環境架設/在WSL (Ubuntu 24.04) 上為 RTX 4070 安裝 CUDA 12.5 + cuDNN 9.13.1 .md",
+    "大學課程/專題/環境架設/WSL (Ubuntu) 繁體中文環境設定.md",
     "大學課程/大二下/微處理機/課程筆記/微處理機概述.md",
     "大學課程/專題/環境架設/安裝 Fcitx5 輸入法框架.md",
-    "大學課程/大二下/微處理機/課程筆記/第二章/ARM架構與組合語言程式設計.md",
-    "大學課程/大二下/微處理機/課程筆記/第一章/硬體介紹.md",
-    "大學課程/大二下/微處理機/課程筆記/第一章/第一章.md",
-    "大學課程/大二下/微處理機/Final_Project/第三部分.md"
+    "大學課程/大二下/微處理機/課程筆記/第二章/ARM架構與組合語言程式設計.md"
   ],
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,

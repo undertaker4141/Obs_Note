@@ -22,7 +22,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 3,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": true,
@@ -79,10 +79,10 @@
     "大學課程/大二下/微處理機/大學課程/大二下/微處理機/Final_Project",
     "大學課程/大二下/微處理機/大學課程/大二下/微處理機/課程筆記/大學課程/大二下/微處理機/課程筆記/第一章",
     "大學課程/大二下/微處理機/大學課程/大二下/微處理機/課程筆記/大學課程/大二下/微處理機/課程筆記/第二章",
-    "大學課程/大二下/微處理機",
     "大學課程/大二下/微處理機/大學課程/大二下/微處理機/課程筆記",
     "大學課程/專題/大學課程/專題/環境架設",
-    "大學課程/專題"
+    "大學課程/專題",
+    "大學課程/大三上/通識/哲學概論"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

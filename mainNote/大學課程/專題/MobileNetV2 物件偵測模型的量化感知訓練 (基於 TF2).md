@@ -93,27 +93,108 @@ TensorFlow Version: 2.xx.x
 
 ---
 
-### 第 2 部分：資料準備 (PASCAL VOC 2012)
+您提出了一个非常好的问题！您说得对，原始的 PASCAL VOC 托管服务器（`host.robots.ox.ac.uk`）确实经常不稳定或无法访问。
 
-與原 PDF 流程一致，我們使用 PASCAL VOC 資料集。
+**切换到 Kaggle 是一个非常明智且可靠的选择。**
 
-1.  **下載資料集**
-    在您的專案目錄下，執行以下指令下載並解壓縮 VOC 2012 訓練/驗證資料集。
+我们需要稍微调整一下数据下载和准备的流程，以适应 Kaggle 的工作方式（需要 API 认证和处理 ZIP 压缩包）。
+
+下面是为您准备好的、可以直接替换掉原教程中「第 2 部分」的全新 Markdown 指南。
+
+---
+
+### 第 2 部分 (更新版): 資料準備 (PASCAL VOC 2012 from Kaggle)
+
+原始的 PASCAL VOC 数据集链接已失效，我们将改用更稳定可靠的 Kaggle 作为数据来源。这需要使用 Kaggle API 来下载数据。
+
+#### 2.1 首次设置：配置 Kaggle API
+
+如果您是第一次在当前环境中使用 Kaggle API，请先完成此设置。
+
+1.  **安装 Kaggle API 套件**
+    在您已激活的 `(tf_mobilenet)` 环境中，执行以下命令：
+    ```bash
+    pip install kaggle
+    ```
+
+2.  **获取 API Token**
+    *   登入您的 [Kaggle 網站](https://www.kaggle.com/)。
+    *   进入您的个人主页，点击右上角的头像，选择 **"Account"**。
+    *   向下滚动到 **API** 区块，点击 **"Create New Token"**。
+    *   浏览器将自动下载一个名为 `kaggle.json` 的文件。请妥善保管它。
+
+3.  **配置 Token**
+    您需要将下载的 `kaggle.json` 文件放置到 WSL 环境中的正确位置。
 
     ```bash
-    # 下載資料集
-    wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+    # 1. 创建 .kaggle 文件夹 (如果不存在)
+    mkdir -p ~/.kaggle
 
-    # 解壓縮
-    tar -xvf VOCtrainval_11-May-2012.tar
+    # 2. 将下载的 kaggle.json 文件移动到该文件夹
+    #    假设您的文件在 Windows 的 "下载" 文件夹中
+    mv /mnt/c/Users/<Your-Windows-Username>/Downloads/kaggle.json ~/.kaggle/
+
+    # 3. (关键步骤) 设置正确的文件权限，否则 API 会报错
+    chmod 600 ~/.kaggle/kaggle.json
     ```
-    解壓縮後，您會得到一個名為 `VOCdevkit` 的資料夾。
+    *请将 `<Your-Windows-Username>` 替换为您在 Windows 中的实际用户名。*
 
-2.  **建立資料載入腳本**
-    TensorFlow 2.x 推薦使用 `tf.data.Dataset` API 來建立高效的資料載入管線。我們將編寫一個 Python 腳本 (`data_loader.py`) 來處理這一切。
+#### 2.2 下载并解压缩数据集
 
-    **`data_loader.py`**
-    ```python
+现在您的 Kaggle API 已经配置好了，可以开始下载数据。
+
+1.  **执行下载命令**
+    在您的专案目录 (`Quantization_practice`) 下，运行以下命令：
+    ```bash
+    kaggle datasets download -d gopalbhattrai/pascal-voc-2012-dataset
+    ```
+    这将会下载一个名为 `pascal-voc-2012-dataset.zip` 的文件。
+
+2.  **解压缩文件**
+    我们将使用 `unzip` 命令来解压。如果您的系统尚未安装，请先安装它。
+
+    ```bash
+    # (如果需要) 安装 unzip 工具
+    sudo apt-get update && sudo apt-get install -y unzip
+
+    # 解压缩数据集
+    unzip pascal-voc-2012-dataset.zip
+    ```
+
+#### 2.3 确认资料夹结构 (非常重要)
+
+我们的 Python 脚本 (`data_loader.py`) 期望的数据路径是 `VOCdevkit/VOC2012/...`。Kaggle 下载解压后的目录结构可能有所不同，我们需要进行检查和调整。
+
+1.  **检查当前目录**
+    解压后，运行 `ls` 命令查看生成的文件夹。您可能会看到类似 `pascal-voc-2012` 或其他名称的文件夹。
+
+2.  **统一目录结构**
+    我们的目标是让 `VOCdevkit` 这个文件夹直接位于您的项目根目录下。
+    *   **情况 A: 如果解压后直接就是 `VOCdevkit`**，那么您无需做任何事。
+    *   **情况 B: 如果解压后得到一个中间文件夹**，例如 `pascal-voc-2012/VOCdevkit/...`，我们需要将 `VOCdevkit` 移出来。
+
+    **请执行以下命令来检查并修正：**
+    ```bash
+    # 查找 VOCdevkit 所在的路径
+    find . -type d -name "VOCdevkit"
+    ```
+    假设 `find` 命令的输出是 `./pascal-voc-2012/VOCdevkit`，那么就执行移动操作：
+    ```bash
+    # 将嵌套的 VOCdevkit 移动到当前目录
+    mv ./pascal-voc-2012/VOCdevkit .
+
+    # 您可以删除解压后留下的空文件夹和 zip 文件以保持整洁
+    rm -rf ./pascal-voc-2012
+    rm pascal-voc-2012-dataset.zip
+    ```
+    **最终，请确保在您的项目根目录 `Quantization_practice` 下，可以直接看到 `VOCdevkit` 这个文件夹。**
+
+
+#### 2.4 建立資料載入腳本
+TensorFlow 2.x 推薦使用 `tf.data.Dataset` API 來建立高效的資料載入管線。我們將編寫一個 Python 腳本 (`data_loader.py`) 來處理這一切。
+
+**`data_loader.py`**
+```python
     import tensorflow as tf
     import os
     import xml.etree.ElementTree as ET
@@ -236,7 +317,7 @@ TensorFlow Version: 2.xx.x
         
         return dataset
     ```
-    **注意**: 為了簡化教學，這個資料載入器將多物件偵測問題簡化為**單物件偵測**（只取第一個標註的物件）。這足以展示從訓練到量化的完整流程。
+**注意**: 為了簡化教學，這個資料載入器將多物件偵測問題簡化為**單物件偵測**（只取第一個標註的物件）。這足以展示從訓練到量化的完整流程。
 
 ### 第 3 部分：模型建立與浮點訓練
 

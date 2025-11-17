@@ -14,54 +14,86 @@ banner_y: "87"
 
 這份教學將詳細說明從環境建置到最終模型推論的每一步。
 
-#### 第 1 部分：環境設定 (使用 Mamba)
+好的，當然！非常高興您的環境已經成功配置。
 
-Mamba 是一個比 Conda 更快的套件管理器，其指令與 Conda 高度相容。
+這是一段可以直接替換掉原教學中「第 1 部分：環境設定」的 Markdown 內容。這段更新後的指南結合了您成功的系統級 CUDA 安裝筆記和我們最終確定的 Conda + Pip 策略，確保了對最新硬體和軟體（TF 2.17+ on WSL2）的兼容性。
 
-1.  **安裝 Mambaforge**
-    如果您尚未安裝，請先從 [Mambaforge GitHub Releases](https://github.com/conda-forge/miniforge/releases) 下載並安裝 Mambaforge。它會提供一個最小化的 Conda 環境，並以 Mamba 作為預設的套件管理器。
+---
+
+### 第 1 部分：環境設定 (WSL2 + 系統級 CUDA + Mamba)
+
+為了確保在最新的硬體（NVIDIA RTX 40 系列）和 TensorFlow 版本（2.17+）上獲得最佳的穩定性和性能，我們將採用「系統級 CUDA + Conda 環境隔離」的最佳實踐方案。此方法將底層驅動與 Python 開發環境分離，避免了常見的兼容性問題。
+
+#### 1.1 前置條件：安裝系統級 CUDA 與 cuDNN
+
+在開始之前，請確保您的 WSL2 (Ubuntu 24.04) 環境已經全局安裝了與您的 GPU 驅動兼容的 CUDA Toolkit 和 cuDNN。
+
+**請遵循以下指南完成系統級安裝：**
+[在WSL (Ubuntu 24.04) 上為 RTX 4070 安裝 CUDA 12.5 + cuDNN 9.13.1 ](在WSL%20(Ubuntu%2024.04)%20上為%20RTX%204070%20安裝%20CUDA%2012.5%20+%20cuDNN%209.13.1%20.md)
+
+完成後，請務必在新開的 WSL 終端中驗證安裝是否成功：
+1.  **驗證 CUDA Toolkit**:
+    ```bash
+    nvcc --version
+    ```
+    *(預期輸出應包含 `release 12.5` 或更高版本)*
+
+2.  **驗證 cuDNN**:
+    ```bash
+    cat /usr/include/x86_64-linux-gnu/cudnn_version.h | grep CUDNN_MAJOR -A 2
+    ```
+    *(預期輸出應顯示與您安裝版本匹配的主、次版本號)*
+
+**只有在以上兩個命令都返回正確版本後，才繼續下一步。**
+
+#### 1.2 建立 Mamba 虛擬環境
+
+我們使用 Mamba (一個更快的 Conda) 來創建一個乾淨、隔離的 Python 環境，用於我們的專案。
+
+1.  **安裝 Mambaforge (如果尚未安裝)**
+    從 [Mambaforge GitHub Releases](https://github.com/conda-forge/miniforge/releases) 下載並安裝 Mambaforge。
 
 2.  **建立並啟用虛擬環境**
     打開您的 WSL2 Ubuntu 終端機，執行以下指令來建立一個名為 `tf_mobilenet` 的虛擬環境。
 
     ```bash
-    # 建立一個包含 Python 3.10 的環境 (TF 官方推薦)
+    # 建立一個包含 Python 3.10 的環境
     mamba create -n tf_mobilenet python=3.10 -y
 
     # 啟用環境
     mamba activate tf_mobilenet
     ```
+    *您現在的終端機提示符應該以 `(tf_mobilenet)` 開頭。*
 
-3.  **安裝必要的 Python 套件**
-    我們將安裝 TensorFlow、TensorFlow 模型最佳化工具 (TFMOT)、以及其他輔助工具。
+#### 1.3 安裝 Python 依賴套件
 
-    ```bash
-    # 安裝 TensorFlow (會自動選擇與您 CUDA 12.5 相容的版本)
-    pip install tensorflow
+在此環境中，我們不再需要 Mamba 來安裝 `cudatoolkit`，因為 TensorFlow 會自動尋找並使用您在系統中安裝的版本。我們直接使用 `pip` 來安裝所有 Python 庫。
 
-    # 安裝 TFMOT (用於量化感知訓練)
-    pip install tensorflow-model-optimization
+```bash
+# 在激活的環境中，使用 pip 安裝所有必要的包
+pip install "tensorflow>=2.17" tensorflow-model-optimization matplotlib opencv-python "lxml>=4.9.0" tqdm
+```
+*   `"tensorflow>=2.17"`: 安裝較新的 TensorFlow 版本，它能更好地支持系統級 CUDA。
+*   `tensorflow-model-optimization`: 用於量化感知訓練。
+*   其他為專案所需的輔助工具。
 
-    # 安裝其他輔助工具
-    pip install matplotlib opencv-python "lxml>=4.9.0" tqdm
-    ```
-    *   `lxml`: 用於解析 PASCAL VOC 的 XML 標註檔。
-    *   `opencv-python`: 用於影像處理。
-    *   `matplotlib`: 用於視覺化。
-    *   `tqdm`: 用於顯示進度條。
+#### 1.4 最終環境驗證
 
-4.  **環境驗證**
-    確認 TensorFlow 可以成功偵測到您的 RTX 4070 GPU。
+確認 TensorFlow 成功偵測到您的 RTX 4070 GPU。
 
-    ```bash
-    python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-    ```
-    如果一切順利，您應該會看到類似以下的輸出，代表 GPU 已成功被 TensorFlow 抓到：
-    ```
-    [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
-    ```
+```bash
+python -c "import tensorflow as tf; print(f'TensorFlow Version: {tf.__version__}'); print(tf.config.list_physical_devices('GPU'))"
+```
+如果一切順利，您將看到如下輸出，代表您的開發環境已完美就緒：
+```
+TensorFlow Version: 2.xx.x
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+```
+現在，您可以繼續進行**第 2 部分：資料準備**。
 
-#### 第 2 部分：資料準備 (PASCAL VOC 2012)
+---
+
+### 第 2 部分：資料準備 (PASCAL VOC 2012)
 
 與原 PDF 流程一致，我們使用 PASCAL VOC 資料集。
 
@@ -206,7 +238,7 @@ Mamba 是一個比 Conda 更快的套件管理器，其指令與 Conda 高度相
     ```
     **注意**: 為了簡化教學，這個資料載入器將多物件偵測問題簡化為**單物件偵測**（只取第一個標註的物件）。這足以展示從訓練到量化的完整流程。
 
-#### 第 3 部分：模型建立與浮點訓練
+### 第 3 部分：模型建立與浮點訓練
 
 1.  **建立模型**
     我們使用 Keras Functional API 建立模型。骨幹是預訓練的 MobileNetV2，頂部接上我們自訂的分類頭和邊界框回歸頭。
@@ -306,7 +338,7 @@ Mamba 是一個比 Conda 更快的套件管理器，其指令與 Conda 高度相
     ```
     訓練完成後，您會在 `models` 資料夾下得到一個名為 `float_model.h5` 的浮點模型。
 
-#### 第 4 部分：量化感知訓練 (QAT)
+### 第 4 部分：量化感知訓練 (QAT)
 
 這是將模型轉換為量化版本的關鍵步驟，對應原 PDF 中的 `tf.contrib.quantize` 流程，但在 TF2 中我們使用 TFMOT。
 
@@ -373,7 +405,7 @@ Mamba 是一個比 Conda 更快的套件管理器，其指令與 Conda 高度相
     ```
     這一步會在模型中插入模擬量化的節點，並微調權重以適應量化帶來的精度損失。訓練完成後，您會得到 `models/qat_model.h5`。
 
-#### 第 5 部分：轉換為 TFLite (uint8)
+### 第 5 部分：轉換為 TFLite (uint8)
 
 現在我們將 QAT 模型轉換為最終部署用的 `uint8` TFLite 格式。
 
@@ -412,7 +444,7 @@ Mamba 是一個比 Conda 更快的套件管理器，其指令與 Conda 高度相
     ```
     恭喜！您現在已經在 `models` 資料夾中得到了最終的 `mobilenet_detect_uint8.tflite` 模型。
 
-#### 第 6 部分：使用 TFLite 模型進行推論
+### 第 6 部分：使用 TFLite 模型進行推論
 
 最後，我們來驗證一下這個量化後的模型是否能正常工作。
 

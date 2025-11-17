@@ -93,19 +93,15 @@ TensorFlow Version: 2.xx.x
 
 ---
 
-您提出了一个非常好的问题！您说得对，原始的 PASCAL VOC 托管服务器（`host.robots.ox.ac.uk`）确实经常不稳定或无法访问。
+好的，當然！將我們經過多次嘗試和修正才得到的最終正確流程，整合成一份清晰、可靠的指南，是非常有價值的。
 
-**切换到 Kaggle 是一个非常明智且可靠的选择。**
-
-我们需要稍微调整一下数据下载和准备的流程，以适应 Kaggle 的工作方式（需要 API 认证和处理 ZIP 压缩包）。
-
-下面是为您准备好的、可以直接替换掉原教程中「第 2 部分」的全新 Markdown 指南。
+這是一份可以直接替換掉原教學中「第 2 部分」的**最終完整版** Markdown 內容。它包含了從 Kaggle API 設定到最終檔案結構整理的所有正確步驟，並使用了更穩健的命令來避免我們之前遇到的合併錯誤。
 
 ---
 
-### 第 2 部分 (更新版): 資料準備 (PASCAL VOC 2012 from Kaggle)
+### 第 2 部分 (最終版): 資料準備 (PASCAL VOC 2012 from Kaggle)
 
-原始的 PASCAL VOC 数据集链接已失效，我们将改用更稳定可靠的 Kaggle 作为数据来源。这需要使用 Kaggle API 来下载数据。
+原始的 PASCAL VOC 数据集链接经常无法访问，我们将改用更稳定可靠的 Kaggle 作为数据来源。此流程将引导您使用 Kaggle API 下载数据，并将其整理成专案脚本所需的标准格式。
 
 #### 2.1 首次设置：配置 Kaggle API
 
@@ -121,7 +117,7 @@ TensorFlow Version: 2.xx.x
     *   登入您的 [Kaggle 網站](https://www.kaggle.com/)。
     *   进入您的个人主页，点击右上角的头像，选择 **"Account"**。
     *   向下滚动到 **API** 区块，点击 **"Create New Token"**。
-    *   浏览器将自动下载一个名为 `kaggle.json` 的文件。请妥善保管它。
+    *   浏览器将自动下载一个名为 `kaggle.json` 的文件。
 
 3.  **配置 Token**
     您需要将下载的 `kaggle.json` 文件放置到 WSL 环境中的正确位置。
@@ -141,8 +137,6 @@ TensorFlow Version: 2.xx.x
 
 #### 2.2 下载并解压缩数据集
 
-现在您的 Kaggle API 已经配置好了，可以开始下载数据。
-
 1.  **执行下载命令**
     在您的专案目录 (`Quantization_practice`) 下，运行以下命令：
     ```bash
@@ -151,8 +145,6 @@ TensorFlow Version: 2.xx.x
     这将会下载一个名为 `pascal-voc-2012-dataset.zip` 的文件。
 
 2.  **解压缩文件**
-    我们将使用 `unzip` 命令来解压。如果您的系统尚未安装，请先安装它。
-
     ```bash
     # (如果需要) 安装 unzip 工具
     sudo apt-get update && sudo apt-get install -y unzip
@@ -160,35 +152,57 @@ TensorFlow Version: 2.xx.x
     # 解压缩数据集
     unzip pascal-voc-2012-dataset.zip
     ```
+    解压后，您会得到 `VOC2012_train_val/` 和 `VOC2012_test/` 两个文件夹。
 
-#### 2.3 确认资料夹结构 (非常重要)
+#### 2.3 关键步骤：合并并重组为标准结构
 
-我们的 Python 脚本 (`data_loader.py`) 期望的数据路径是 `VOCdevkit/VOC2012/...`。Kaggle 下载解压后的目录结构可能有所不同，我们需要进行检查和调整。
+我们的 Python 脚本期望 PASCAL VOC 的标准目录结构 (`VOCdevkit/VOC2012/...`)。以下命令将把解压后的两个文件夹合并成我们需要的标准格式。
 
-1.  **检查当前目录**
-    解压后，运行 `ls` 命令查看生成的文件夹。您可能会看到类似 `pascal-voc-2012` 或其他名称的文件夹。
+**请在您的专案根目录下，完整地执行以下命令块：**
+```bash
+# 1. 创建目标目录结构
+echo "正在创建标准 VOCdevkit 目录..."
+mkdir -p VOCdevkit/VOC2012
 
-2.  **统一目录结构**
-    我们的目标是让 `VOCdevkit` 这个文件夹直接位于您的项目根目录下。
-    *   **情况 A: 如果解压后直接就是 `VOCdevkit`**，那么您无需做任何事。
-    *   **情况 B: 如果解压后得到一个中间文件夹**，例如 `pascal-voc-2012/VOCdevkit/...`，我们需要将 `VOCdevkit` 移出来。
+# 2. 使用 cp 命令递归地复制并合并 "训练/验证集" 的内容
+#    -r: 递归复制
+#    -T: 将源目录的 *内容* 复制到目标目录，而不是源目录本身
+echo "正在合并 train_val 数据..."
+cp -rT VOC2012_train_val/ VOCdevkit/VOC2012/
 
-    **请执行以下命令来检查并修正：**
-    ```bash
-    # 查找 VOCdevkit 所在的路径
-    find . -type d -name "VOCdevkit"
-    ```
-    假设 `find` 命令的输出是 `./pascal-voc-2012/VOCdevkit`，那么就执行移动操作：
-    ```bash
-    # 将嵌套的 VOCdevkit 移动到当前目录
-    mv ./pascal-voc-2012/VOCdevkit .
+# 3. 同样地，复制并合并 "测试集" 的内容
+#    cp 命令会自动将文件放入已存在的同名子文件夹中，实现完美合并
+echo "正在合并 test 数据..."
+cp -rT VOC2012_test/ VOCdevkit/VOC2012/
 
-    # 您可以删除解压后留下的空文件夹和 zip 文件以保持整洁
-    rm -rf ./pascal-voc-2012
-    rm pascal-voc-2012-dataset.zip
-    ```
-    **最终，请确保在您的项目根目录 `Quantization_practice` 下，可以直接看到 `VOCdevkit` 这个文件夹。**
+# 4. 清理不再需要的原始文件夹和 zip 压缩包
+echo "正在清理临时文件..."
+rm -rf VOC2012_train_val/ VOC2012_test/
+rm pascal-voc-2012-dataset.zip
 
+echo "数据整理完成！"
+```*使用 `cp -rT` 命令比 `mv` 更稳健，能确保所有嵌套的子文件夹内容都被正确合并。*
+
+```
+
+完成以上步骤后，您的专案目录结构应该如下：
+
+
+Quantization_practice/
+├── VOCdevkit/
+│   └── VOC2012/
+│       ├── Annotations/
+│       ├── ImageSets/
+│       ├── JPEGImages/
+│       ├── ... (其他文件夹)
+│
+├── data_loader.py
+├── model.py
+└── ... (其他专案文件)
+
+```bash
+您可以执行 `ls VOCdevkit/VOC2012/ImageSets/Main/` 来确认 `test.txt` 等文件已被正确合并。
+```
 
 #### 2.4 建立資料載入腳本
 TensorFlow 2.x 推薦使用 `tf.data.Dataset` API 來建立高效的資料載入管線。我們將編寫一個 Python 腳本 (`data_loader.py`) 來處理這一切。

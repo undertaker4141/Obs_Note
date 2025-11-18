@@ -340,35 +340,37 @@ TensorFlow 2.x 推薦使用 `tf.data.Dataset` API 來建立高效的資料載入
 
     **`model.py`**
     ```python
-    import tensorflow as tf
-    from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Input
-    from tensorflow.keras.models import Model
-    from data_loader import VOC_CLASSES # 引用類別數量
+import tensorflow as tf
+# 直接从 Keras 导入
+from keras.layers import GlobalAveragePooling2D, Dense, Input
+from keras.models import Model
+from keras.applications import MobileNetV2
+from data_loader import VOC_CLASSES # 引用類別數量
 
-    def build_detection_model(input_shape=(224, 224, 3)):
-        # 載入預訓練的 MobileNetV2，不包含頂部分類層
-        base_model = tf.keras.applications.MobileNetV2(
-            input_shape=input_shape,
-            include_top=False,
-            weights='imagenet'
-        )
-        # 凍結骨幹網路的權重
-        base_model.trainable = False
+def build_detection_model(input_shape=(224, 224, 3)):
+    # 載入預訓練的 MobileNetV2，不包含頂部分類層
+    base_model = MobileNetV2(
+        input_shape=input_shape,
+        include_top=False,
+        weights='imagenet'
+    )
+	# 凍結骨幹網路的權重
+	base_model.trainable = False
 
-        # 自訂模型頭
-        inputs = Input(shape=input_shape)
-        x = base_model(inputs, training=False)
-        x = GlobalAveragePooling2D()(x)
-        
-        # 邊界框回歸頭 (4 個輸出: ymin, xmin, ymax, xmax)
-        bbox_output = Dense(4, activation='sigmoid', name='bbox_head')(x)
-        
-        # 類別分類頭
-        num_classes = len(VOC_CLASSES)
-        class_output = Dense(num_classes, activation='softmax', name='class_head')(x)
-        
-        model = Model(inputs=inputs, outputs=[bbox_output, class_output])
-        return model
+	# 自訂模型頭
+	inputs = Input(shape=input_shape)
+	x = base_model(inputs, training=False)
+	x = GlobalAveragePooling2D()(x)
+	
+	# 邊界框回歸頭 (4 個輸出: ymin, xmin, ymax, xmax)
+	bbox_output = Dense(4, activation='sigmoid', name='bbox_head')(x)
+	
+	# 類別分類頭
+	num_classes = len(VOC_CLASSES)
+	class_output = Dense(num_classes, activation='softmax', name='class_head')(x)
+	
+	model = Model(inputs=inputs, outputs=[bbox_output, class_output])
+	return model
     ```
 
 2.  **開始浮點訓練**

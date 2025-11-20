@@ -41,8 +41,7 @@ banner_y: "93.5"
 
 1.  **使用 Mamba 安裝核心依賴**
     使用 Mamba 來安裝 TensorFlow 以及與之配套的 CUDA Toolkit 和 cuDNN。Conda 會將這些庫安裝在虛擬環境內部，與系統環境完全隔離。
-2. 
-3. **-c nvidia** ( 在前 ) : 優先從 nvidia 官方頻道安裝 CUDA Toolkit 跟  cuDNN
+2. **-c nvidia** ( 在前 ) : 優先從 nvidia 官方頻道安裝 CUDA Toolkit 跟  cuDNN
 
     ```bash
 	# 使用 -c conda-forge 來確保獲取到 GPU 版本的 TensorFlow

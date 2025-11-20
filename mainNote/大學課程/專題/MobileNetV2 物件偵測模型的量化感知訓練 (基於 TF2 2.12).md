@@ -28,11 +28,11 @@ banner_y: "93.5"
 
 1.  **建立並啟用新環境**
     ```bash
-# 建立一個包含 Python 3.10 的新環境
-mamba create -n tf_mobilenet python=3.10 -y
-
-# 啟用新環境
-mamba activate tf_mobilenet
+	# 建立一個包含 Python 3.10 的新環境
+	mamba create -n tf_mobilenet python=3.10 -y
+	
+	# 啟用新環境
+	mamba activate tf_mobilenet
     ```
 
 #### 1.3 安裝所有依賴
@@ -45,17 +45,17 @@ mamba activate tf_mobilenet
 3. **-c nvidia** ( 在前 ) : 優先從 nvidia 官方頻道安裝 CUDA Toolkit 跟  cuDNN
 
     ```bash
-# 使用 -c conda-forge 來確保獲取到 GPU 版本的 TensorFlow
-# Conda 會自動解析並安裝與 TF 2.12 相容的 cudatoolkit 和 cudnn
-mamba install -c nvidia -c conda-forge "tensorflow-gpu=2.12.*" "cudatoolkit=11.8.*" matplotlib opencv lxml tqdm -y
+	# 使用 -c conda-forge 來確保獲取到 GPU 版本的 TensorFlow
+	# Conda 會自動解析並安裝與 TF 2.12 相容的 cudatoolkit 和 cudnn
+	mamba install -c nvidia -c conda-forge "tensorflow-gpu=2.12.*" "cudatoolkit=11.8.*" matplotlib opencv lxml tqdm -y
     ```
 
 3.  **使用 Pip 安裝 TFMOT**
     在核心依賴安裝完成後，使用 Pip 來安裝與 TF 2.12 相容的 `tensorflow-model-optimization` 版本。
 
     ```bash
-# 安裝與 TF 2.12 配套的 TFMOT 0.7.5 版本
-pip install "tensorflow-model-optimization==0.7.5"
+	# 安裝與 TF 2.12 配套的 TFMOT 0.7.5 版本
+	pip install "tensorflow-model-optimization==0.7.5"
     ```
 
 #### 1.4 最終環境驗證
@@ -67,7 +67,7 @@ python -c "import tensorflow as tf; print(f'TensorFlow Version: {tf.__version__}
 ```
 
 如果一切順利，會看到如下輸出，代表開發環境已就緒：
-```
+```bash
 TensorFlow Version: 2.12.x
 [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
 ```
@@ -84,19 +84,19 @@ TensorFlow Version: 2.12.x
 
 1.  **安裝 Kaggle API 套件**
     ```bash
-pip install kaggle
+	pip install kaggle
     ```
 
 2.  **獲取並配置 API Token**
     *   登入的 [Kaggle 網站](https://www.kaggle.com/)，點擊頭像進入 **"Account"**，在 API 區塊點擊 **"Create New Token"** 以下載 `kaggle.json`。
     *   將下載的 `kaggle.json` 檔案移動到 WSL 環境中的正確位置，並設定權限：
     ```bash
-# 建立 .kaggle 資料夾 (如果不存在)
-mkdir -p ~/.kaggle
-# 假設檔案在 Windows 的 "下載" 資料夾中
-mv /mnt/c/Users/<Your-Windows-Username>/Downloads/kaggle.json ~/.kaggle/
-# 設定正確的檔案權限
-chmod 600 ~/.kaggle/kaggle.json
+	# 建立 .kaggle 資料夾 (如果不存在)
+	mkdir -p ~/.kaggle
+	# 假設檔案在 Windows 的 "下載" 資料夾中
+	mv /mnt/c/Users/<Your-Windows-Username>/Downloads/kaggle.json ~/.kaggle/
+	# 設定正確的檔案權限
+	chmod 600 ~/.kaggle/kaggle.json
     ```
 
 #### 2.2 下載並解壓縮資料集
@@ -109,11 +109,11 @@ kaggle datasets download -d gopalbhattrai/pascal-voc-2012-dataset
 
 2.  **解壓縮檔案**
     ```bash
-# (如果需要) 安裝 unzip 工具
-sudo apt-get update && sudo apt-get install -y unzip
-# 解壓縮
-unzip pascal-voc-2012-dataset.zip
-    ```
+	# (如果需要) 安裝 unzip 工具
+	sudo apt-get update && sudo apt-get install -y unzip
+	# 解壓縮
+	unzip pascal-voc-2012-dataset.zip
+	```
     解壓縮後，會得到 `VOC2012_train_val/` 和 `VOC2012_test/` 兩個資料夾。
 
 #### 2.3 使用腳本自動合併與整理
@@ -126,41 +126,41 @@ unzip pascal-voc-2012-dataset.zip
 2.  **貼上腳本內容**
     將下方的完整程式碼區塊複製並貼到編輯器中：
     ```bash
-#!/bin/bash
-
-# 如果任何指令失敗，立即停止
-set -e
-
-echo ">>> 1. 建立最終目標目錄..."
-mkdir -p VOCdevkit/VOC2012
-
-echo ">>> 2. 使用 rsync 從深層路徑合併 train_val 內容 (這會建立初始目錄)..."
-rsync -av --progress VOC2012_train_val/VOC2012_train_val/ VOCdevkit/VOC2012/
-
-echo ">>> 3. 使用 rsync 從深層路徑合併 test 內容 (這會合併到現有目錄)..."
-rsync -av --progress VOC2012_test/VOC2012_test/ VOCdevkit/VOC2012/
-
-echo ">>> 4. 清理所有不再需要的原始資料夾..."
-rm -rf VOC2012_train_val/
-rm -rf VOC2012_test/
-
-echo ">>> 資料整理完成！"
-echo ">>> 驗證最終結構："
-ls -F VOCdevkit/VOC2012/
+	#!/bin/bash
+	
+	# 如果任何指令失敗，立即停止
+	set -e
+	
+	echo ">>> 1. 建立最終目標目錄..."
+	mkdir -p VOCdevkit/VOC2012
+	
+	echo ">>> 2. 使用 rsync 從深層路徑合併 train_val 內容 (這會建立初始目錄)..."
+	rsync -av --progress VOC2012_train_val/VOC2012_train_val/ VOCdevkit/VOC2012/
+	
+	echo ">>> 3. 使用 rsync 從深層路徑合併 test 內容 (這會合併到現有目錄)..."
+	rsync -av --progress VOC2012_test/VOC2012_test/ VOCdevkit/VOC2012/
+	
+	echo ">>> 4. 清理所有不再需要的原始資料夾..."
+	rm -rf VOC2012_train_val/
+	rm -rf VOC2012_test/
+	
+	echo ">>> 資料整理完成！"
+	echo ">>> 驗證最終結構："
+	ls -F VOCdevkit/VOC2012/
     ```
 
 1.  **儲存並執行腳本**
     *   接著，賦予腳本執行權限：
         ```bash
-chmod +x organize_voc_data.sh
+	chmod +x organize_voc_data.sh
         ```
     *   最後，執行腳本來自動完成所有整理工作：
         ```bash
-./organize_voc_data.sh
+	./organize_voc_data.sh
         ```
 
 腳本執行完畢後，專案目錄結構應該如下：
-```
+```bash
 Quantization_practice/
 ├── VOCdevkit/
 │   └── VOC2012/

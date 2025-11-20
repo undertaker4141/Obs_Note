@@ -103,7 +103,7 @@ TensorFlow Version: 2.12.x
 1.  **下載資料**
     在專案目錄下，執行以下指令下載資料集：
     ```bash
-kaggle datasets download -d gopalbhattrai/pascal-voc-2012-dataset
+	kaggle datasets download -d gopalbhattrai/pascal-voc-2012-dataset
     ```
 
 2.  **解壓縮檔案**
@@ -151,11 +151,11 @@ kaggle datasets download -d gopalbhattrai/pascal-voc-2012-dataset
 1.  **儲存並執行腳本**
     *   接著，賦予腳本執行權限：
         ```bash
-	chmod +x organize_voc_data.sh
+		chmod +x organize_voc_data.sh
         ```
     *   最後，執行腳本來自動完成所有整理工作：
         ```bash
-	./organize_voc_data.sh
+		./organize_voc_data.sh
         ```
 
 腳本執行完畢後，專案目錄結構應該如下：
@@ -629,3 +629,6 @@ print("Result saved to output.jpg")
 python inference.py
 ```
 讀取一張測試圖片，使用的 `uint8` TFLite 模型進行偵測，並將結果繪製在圖片上，儲存為 `output.jpg`。
+
+### 專案 github 網址 (專案內不含資料集，請自行下載)
+https://github.com/undertaker4141/Quantization_practice_MobileNetV2

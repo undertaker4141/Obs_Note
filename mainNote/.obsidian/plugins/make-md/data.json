@@ -22,7 +22,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": true,
@@ -83,10 +83,10 @@
     "//大學課程/大學課程/大三上",
     "//大學課程/大學課程/大三上/大學課程/大三上/通識",
     "//大學課程/大學課程/大三上/大學課程/大三上/通識/大學課程/大三上/通識/哲學概論",
-    "大學課程/大三上/通識/哲學概論",
-    "大學課程/大三上/通識/哲學概論/大學課程/大三上/通識/哲學概論/上課筆記",
     "大學課程/專題/大學課程/專題/環境架設",
-    "大學課程/專題"
+    "大學課程/專題",
+    "大學課程/大三上/通識/哲學概論",
+    "大學課程/大三上/通識/哲學概論/大學課程/大三上/通識/哲學概論/上課筆記"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

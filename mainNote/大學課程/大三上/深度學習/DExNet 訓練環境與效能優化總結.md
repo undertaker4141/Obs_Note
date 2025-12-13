@@ -42,3 +42,11 @@ uv run --no-sync python train_sirs.py \
 ```
 
 
+## ### 環境全能修復指令 (Rescue Command)
+如果未來環境又亂掉，請執行
+```bash
+uv pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 --index-url https://download.pytorch.org/whl/cu124 && uv pip install opencv-python kornia tensorboardX visdom PyWavelets dominate
+```
+
+重新安裝 DExNet 所需要的所有套件
+

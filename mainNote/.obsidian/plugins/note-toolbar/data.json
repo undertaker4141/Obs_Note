@@ -12,16 +12,16 @@
   "keepPropsState": false,
   "onboarding": {},
   "recentFiles": [
+    "大學課程/大三上/深度學習/DExNet 訓練環境與效能優化總結.md",
+    "大學課程/大三上/深度學習/專題整體可行性評估.md",
+    "大學課程/大三上/深度學習/DExNet 資料載入架構總結.md",
+    "大學課程/大三上/深度學習/專案初始化.md",
     "大學課程/大三上/深度學習/未命名.md",
     "大學課程/大三上/深度學習/foo.md",
     "大學課程/專題/待整理區/兩個人團隊進行專題作業.md",
     "大學課程/專題/MobileNetV2 物件偵測模型的量化感知訓練 (基於 TF2 2.12).md",
     "大學課程/專題/應用想法/應用想法.md",
-    "大學課程/專題/待整理區/待整理區.md",
-    "大學課程/專題/YOLOv3 訓練與量化部署實戰教學 (基於 TensorFlow).md",
-    "大學課程/專題/環境架設/官方WSLg 筆記：在 Windows 上執行 Linux GUI 應用程式.md",
-    "大學課程/專題/環境架設/在WSL (Ubuntu 24.04) 上為 RTX 4070 安裝 CUDA 12.5 + cuDNN 9.13.1 .md",
-    "大學課程/專題/專題提案：輕量化 Vision Transformer 之硬體加速器設計與實作.md"
+    "大學課程/專題/待整理區/待整理區.md"
   ],
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,

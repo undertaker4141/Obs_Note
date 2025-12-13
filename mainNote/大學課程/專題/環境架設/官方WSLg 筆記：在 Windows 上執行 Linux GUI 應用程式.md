@@ -142,7 +142,7 @@ WSLg (Windows Subsystem for Linux GUI) 是一個開源專案，它讓您能夠�
     ```
     
 
-### 3. Nautilus (檔案管理器)  3. Nautilus (檔案)
+### 3. Nautilus (檔案管理器) 
 
 - **說明**: GNOME 桌面環境的預設檔案管理器。
     

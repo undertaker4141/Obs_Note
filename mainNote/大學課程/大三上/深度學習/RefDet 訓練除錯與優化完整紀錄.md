@@ -75,3 +75,14 @@ python training.py \
     --fusion_ratio 0.4 \
     --Crop_patches 320
 ```
+
+
+```bash
+uv run python training.py \
+    --training_data_path "/home/team06/DL_term_project/Datasets" \
+    --BATCH_SIZE 6 \
+    --EPOCH 200 \
+    --learning_rate 0.0002 \
+    --fusion_ratio 0.4 \
+    --Crop_patches 320
+```

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e8518e61ecd36db2",
+        "id": "5ce0e1f22c14977e",
         "type": "tabs",
         "children": [
           {
-            "id": "fd11e9b29176bc7e",
+            "id": "71f62865798adc59",
             "type": "leaf",
             "state": {
               "type": "beautitab-react-view",
@@ -68,30 +68,9 @@
               "icon": "lucide-bookmark",
               "title": "書籤"
             }
-          },
-          {
-            "id": "a7c717dde10a9a44",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "大學課程/專題/環境架設"
-              },
-              "icon": "lucide-file",
-              "title": "環境架設"
-            }
-          },
-          {
-            "id": "1fbb6b401b06f35d",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -256,8 +235,23 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "59a60fd64b26d059",
+  "active": "71f62865798adc59",
   "lastOpenFiles": [
+    "大學課程/專題/環境架設/環境架設.md",
+    "大學課程/大二下/微處理機/微處理機.md",
+    "大學課程/大二下/微處理機/課堂作業/課堂作業.md",
+    "大學課程/大二下/微處理機/Final_Project/Final_Project.md",
+    "大學課程/大二下/微處理機/Final_Project/README.md.md",
+    "大學課程/大二下/微處理機/Final_Project/第一部分.md",
+    "大學課程/大二下/微處理機/課程筆記/微處理機概述.md",
+    "大學課程/大二下/英文/英文.md",
+    "大學課程/大二下/英文/英文摘要與研究動機文稿.md",
+    "大學課程/大二下/人工智慧概論/HW_3/HW_3.md",
+    "大學課程/大二下/人工智慧概論/人工智慧概論.md",
+    "大學課程/大二下/微處理機/課程筆記/第一章/課程介紹與基礎.md",
+    "未命名 1.base",
+    "未命名.base",
+    "大學課程/大二下/電子學/課堂錄音逐字稿/0611.md",
     "Vault.md",
     "Untitled Kanban.md",
     "模板/未命名.base",
@@ -274,28 +268,13 @@
     "大學課程/大三上/人工智慧/AI 期末作業 - 專案結構總覽.md",
     "大學課程/大三上/深度學習/報告撰寫/報告架構規劃 (Report Structure).md",
     "大學課程/大三上/深度學習/RefDet Windows 訓練優化筆記.md",
-    "大學課程/大三上/深度學習/結果比較與討論 (Results Comparison & Discussion).md",
-    "大學課程/大三上/深度學習/DExNet 資料載入架構總結.md",
-    "大學課程/大三上/深度學習/DExNet 訓練環境與效能優化總結.md",
-    "大學課程/大三上/深度學習/反射去除模型測試與 Fine-tune 開發說明.md",
-    "大學課程/大三上/深度學習/專案初始化.md",
-    "大學課程/大三上/深度學習/Image-Reflection-Removal-based-on-Knowledge-distilling-Content-Disentanglement.md",
-    "大學課程/大三上/深度學習/報告撰寫/方法敘述 (Method Description).md",
-    "大學課程/大三上/人工智慧/未命名.md",
-    "大學課程/大三上/深度學習/報告撰寫/主題簡介 (Introduction).md",
     "大學課程/大三上/人工智慧",
-    "大學課程/大三上/深度學習/RefDet 訓練除錯與優化完整紀錄.md",
-    "大學課程/大三上/深度學習/報告撰寫/報告撰寫.md",
     "大學課程/大三上/深度學習/報告撰寫",
-    "大學課程/大三上/深度學習/未命名 1.md",
-    "大學課程/大三上/深度學習/RDNet 資料集整合紀錄.md",
     "大學課程/大三上/深度學習",
     "大學課程/專題/應用想法",
     "大學課程/專題/待整理區",
     "大學課程/專題/專題提案：Vision Transformer 遊戲應用之多維度變體與創意延伸大全/專題提案：Vision Transformer 遊戲應用之多維度變體與創意延伸大全-1764490093852.png",
     "大學課程/專題/專題提案：Vision Transformer 遊戲應用之多維度變體與創意延伸大全",
-    "大學課程/大三上/通識/哲學概論/上課筆記.7z",
-    "大學課程/大三上/通識/哲學概論/上課筆記.7z.tmp",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842182008.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842133169.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842035929.png",

@@ -1,0 +1,1 @@
+python train_finetune.py --epochs 30 --save_interval 3

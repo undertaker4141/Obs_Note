@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c1d502a5462a5bd2",
+        "id": "abbb65b50e0feb75",
         "type": "tabs",
         "children": [
           {
-            "id": "7dc2ed012e9dfc36",
+            "id": "b52d6586b90bba09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大學課程/大三上/深度學習/報告撰寫/主題簡介 (Introduction).md",
+                "file": "大學課程/專題/專題提案：輕量化 Vision Transformer 之硬體加速器設計與實作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "主題簡介 (Introduction)"
-            }
-          },
-          {
-            "id": "ae85417f5d1008e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大學課程/大三上/深度學習/RefDet 訓練除錯與優化完整紀錄.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RefDet 訓練除錯與優化完整紀錄"
+              "title": "專題提案：輕量化 Vision Transformer 之硬體加速器設計與實作"
             }
           }
         ]
@@ -101,7 +87,7 @@
             }
           },
           {
-            "id": "155babefd71f21d8",
+            "id": "1fbb6b401b06f35d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -266,36 +252,37 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7dc2ed012e9dfc36",
+  "active": "b52d6586b90bba09",
   "lastOpenFiles": [
-    "大學課程/大三上/深度學習/報告撰寫/方法敘述 (Method Description).md",
-    "大學課程/大三上/深度學習/報告撰寫/主題簡介 (Introduction).md",
+    "大學課程/專題/環境架設/WSL (Ubuntu) 繁體中文環境設定.md",
+    "大學課程/大三上/通識/哲學概論/上課筆記/哲學概論 20250909：課程介紹與哲學史鳥瞰.md",
+    "大學課程/大三上/人工智慧/AI 期末作業 - 專案結構總覽.md",
     "大學課程/大三上/深度學習/報告撰寫/報告架構規劃 (Report Structure).md",
+    "大學課程/大三上/深度學習/RefDet Windows 訓練優化筆記.md",
+    "大學課程/大三上/深度學習/結果比較與討論 (Results Comparison & Discussion).md",
+    "大學課程/大三上/深度學習/DExNet 資料載入架構總結.md",
+    "大學課程/大三上/深度學習/DExNet 訓練環境與效能優化總結.md",
+    "大學課程/大三上/深度學習/反射去除模型測試與 Fine-tune 開發說明.md",
+    "大學課程/大三上/深度學習/專案初始化.md",
+    "大學課程/大三上/深度學習/Image-Reflection-Removal-based-on-Knowledge-distilling-Content-Disentanglement.md",
+    "大學課程/大三上/深度學習/報告撰寫/方法敘述 (Method Description).md",
+    "大學課程/大三上/人工智慧/未命名.md",
+    "大學課程/大三上/深度學習/報告撰寫/主題簡介 (Introduction).md",
+    "大學課程/大三上/人工智慧",
+    "大學課程/大三上/深度學習/RefDet 訓練除錯與優化完整紀錄.md",
     "大學課程/大三上/深度學習/報告撰寫/報告撰寫.md",
     "大學課程/大三上/深度學習/報告撰寫",
-    "大學課程/大三上/深度學習/未命名.md",
-    "大學課程/大三上/深度學習/RefDet 訓練除錯與優化完整紀錄.md",
     "大學課程/大三上/深度學習/未命名 1.md",
-    "大學課程/大三上/深度學習/DExNet 訓練環境與效能優化總結.md",
-    "大學課程/大三上/深度學習/DExNet 資料載入架構總結.md",
-    "大學課程/大三上/深度學習/RefDet Windows 訓練優化筆記.md",
     "大學課程/大三上/深度學習/RDNet 資料集整合紀錄.md",
     "大學課程/大三上/通識/哲學概論/未命名.md",
     "大學課程/大三上/深度學習/專題整體可行性評估.md",
     "大學課程/大三上/深度學習/跑測試集跟驗證模型效能構想.md",
-    "大學課程/大三上/深度學習/專案初始化.md",
     "大學課程/大三上/深度學習/.md",
     "大學課程/大三上/深度學習",
     "大學課程/專題/待整理區/兩個人團隊進行專題作業.md",
     "大學課程/專題/MobileNetV2 物件偵測模型的量化感知訓練 (基於 TF2 2.12).md",
     "大學課程/專題/應用想法/應用想法.md",
     "大學課程/專題/待整理區/待整理區.md",
-    "大學課程/專題/YOLOv3 訓練與量化部署實戰教學 (基於 TensorFlow).md",
-    "大學課程/專題/環境架設/官方WSLg 筆記：在 Windows 上執行 Linux GUI 應用程式.md",
-    "大學課程/專題/環境架設/在WSL (Ubuntu 24.04) 上為 RTX 4070 安裝 CUDA 12.5 + cuDNN 9.13.1 .md",
-    "大學課程/專題/專題提案：輕量化 Vision Transformer 之硬體加速器設計與實作.md",
-    "大學課程/專題/待整理區/專題模型評估：DeiT-Tiny vs. CCT 硬體實作比較報告.md",
-    "大學課程/專題/待整理區/CCT的相對比較.md",
     "大學課程/專題/應用想法",
     "大學課程/專題/待整理區",
     "大學課程/專題/專題提案：Vision Transformer 遊戲應用之多維度變體與創意延伸大全/專題提案：Vision Transformer 遊戲應用之多維度變體與創意延伸大全-1764490093852.png",
@@ -304,7 +291,6 @@
     "大學課程/大三上/通識/哲學概論/上課筆記.7z.tmp",
     "大學課程/大三上/通識/哲學概論/上課筆記",
     "大學課程/專題/環境架設",
-    "大學課程/專題",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842182008.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842133169.png",
     "大學課程/大二下/微處理機/Final_Project/第五部分/第五部分-1749842035929.png",
